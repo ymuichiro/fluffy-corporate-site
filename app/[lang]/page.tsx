@@ -45,15 +45,15 @@ export default async function IndexPage({ params: { lang } }: Props) {
             <H2>{dictionary.index.introduce_company_title}</H2>
             <p>{dictionary.index.introduce_company_description}</p>
           </div>
-          <div className="overflow-hidden lg:h-auto w-full lg:w-7/12 flex justify-center items-center">
-            <Image
-              loading="eager"
-              className="rounded-lg shadow-lg animate-in"
-              src={LogoImage.src}
-              alt="lose and fluffy logo"
-              height={1024}
-              width={1024}
-            />
+          <div className="overflow-hidden lg:h-auto w-full lg:w-7/12 flex justify-center items-center p-10">
+            <Avatar className="h-[400px] sm:h-[600px] md:h-[800px] w-[400px] sm:w-[600px] md:w-[800px]">
+              <AvatarImage
+                loading="eager"
+                className="rounded-lg shadow-lg animate-in"
+                src={LogoImage.src}
+                alt="lose and fluffy logo"
+              />
+            </Avatar>
           </div>
         </InViewFadeIn>
       </section>
