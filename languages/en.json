@@ -1,0 +1,52 @@
+{
+  "$schema": "./schema.json",
+  "index": {
+    "hero_title": "Loose and Fluffy",
+    "hero_description": "description description description description description",
+    "introduce_company_title": "What's in Loose and fluffy?",
+    "introduce_company_description": "description description description description",
+    "introduce_product_title": "Onigiri types",
+    "introduce_product_description": "description description description description",
+    "product_onigiris_1_name": "Onigiri-A",
+    "product_onigiris_1_description": "description description description description",
+    "product_onigiris_2_name": "Onigiri-B",
+    "product_onigiris_2_description": "description description description description",
+    "product_onigiris_3_name": "Onigiri-C",
+    "product_onigiris_3_description": "description description description description",
+    "product_onigiri_nft_title": "Onigiri - NFT",
+    "product_onigiri_nft_description": "description description description description",
+    "introduce_shop_title": "Shop Info",
+    "introduce_shop_open_days_title": "Open - Days",
+    "introduce_shop_open_days_content": "Monday - Friday",
+    "introduce_shop_open_hours_title": "Open - Hours",
+    "introduce_shop_open_hours_content": "10:00 AM - 10:00 PM",
+    "introduce_shop_location_title": "Location",
+    "introduce_shop_location_content": "Tokyo Arakawa Nishinippori n-n-n",
+    "introduce_shop_phone_title": "Phone",
+    "introduce_shop_phone_content": "090-xxxx-xxxx",
+    "questions_title": "Questions",
+    "questions_description": "If you have any questions, please contact us at no-reply@loose-and-fluffy.com",
+    "questions_items": [
+      {
+        "question": "What is Loose and Fluffy?",
+        "answer": "description description description description"
+      },
+      {
+        "question": "What is NFT?",
+        "answer": "description description description description"
+      },
+      {
+        "question": "What is Shop Info?",
+        "answer": "description description description description"
+      },
+      {
+        "question": "What is Onigiri types?",
+        "answer": "description description description description"
+      },
+      {
+        "question": "What is Onigiri - NFT?",
+        "answer": "description description description description"
+      }
+    ]
+  }
+}

@@ -1,0 +1,10 @@
+# *
+User-agent: *
+Allow: /
+
+# Host
+Host: http://127.0.0.1
+
+# Sitemaps
+Sitemap: http://127.0.0.1/sitemap.xml
+Sitemap: http://127.0.0.1/server-sitemap.xml
