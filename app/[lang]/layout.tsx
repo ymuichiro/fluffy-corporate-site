@@ -23,7 +23,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "loose and fluffy",
     description: "loose and fluffy",
-    creator: "@faunsu19000",
+    creator: "@anpanmanringo",
     images: ["/twitter-image.png"],
   },
 };
