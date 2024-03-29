@@ -1,6 +1,6 @@
 import InViewFadeIn from "@/components/atom/moleculs/inview-fadein";
 import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from "@/components/ui/accordion";
-import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
+import { Avatar, AvatarImage } from "@/components/ui/avatar";
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
 import { Footer } from "@/components/ui/footer";
 import { H1, H2, H3, Paragraph } from "@/components/ui/typography";
@@ -49,8 +49,9 @@ export default async function IndexPage({ params: { lang } }: Props) {
             <Image
               loading="eager"
               className="rounded-lg shadow-lg animate-in"
-              src={LogoImage}
+              src={LogoImage.src}
               alt="lose and fluffy logo"
+              height={1024}
               width={1024}
             />
           </div>
