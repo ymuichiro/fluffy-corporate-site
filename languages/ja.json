@@ -23,7 +23,7 @@
     "introduce_shop_location_title": "Location",
     "introduce_shop_location_content": "Tokyo Arakawa Nishinippori n-n-n",
     "introduce_shop_phone_title": "Phone",
-    "introduce_shop_phone_content": "090-xxxx-xxxx",
+    "introduce_shop_phone_content": "080-9124-7606",
     "questions_title": "Questions",
     "questions_description": "If you have any questions, please contact us at looseandfluffy＠yahoo.co.jp",
     "questions_items": [
@@ -44,8 +44,10 @@
         "answer": "description description description description"
       },
       {
-        "question": "What is Onigiri - NFT?",
-        "answer": "description description description description"
+        "question": "会社概要",
+        "answer": "株式会社Ｌｏｏｓｅ　ａｎｄ　ｆｌｕｆｆｙ
+〒116-0013 東京都 荒川区 西日暮里６丁目５１－９プレシス西日暮里２０５
+法人番号：1011501030467"
       }
     ]
   }
