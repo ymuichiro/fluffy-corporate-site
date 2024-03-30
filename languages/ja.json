@@ -2,9 +2,9 @@
   "$schema": "./schema.json",
   "index": {
     "hero_title": "Loose and Fluffy",
-    "hero_description": "ここのサイトの説明を追加する",
+    "hero_description": "自分に合った環境を知り理不尽に慣れるのではなく理想を創る",
     "introduce_company_title": "What's in Loose and fluffy?",
-    "introduce_company_description": "description description description description",
+    "introduce_company_description": "ゆるふわっと素敵な世界を目指して",
     "introduce_product_title": "Onigiri types",
     "introduce_product_description": "description description description description",
     "product_onigiris_1_name": "Onigiri-A",
@@ -25,15 +25,15 @@
     "introduce_shop_phone_title": "Phone",
     "introduce_shop_phone_content": "090-xxxx-xxxx",
     "questions_title": "Questions",
-    "questions_description": "If you have any questions, please contact us at no-reply@loose-and-fluffy.com",
+    "questions_description": "If you have any questions, please contact us at looseandfluffy＠yahoo.co.jp",
     "questions_items": [
       {
         "question": "What is Loose and Fluffy?",
-        "answer": "description description description description"
+        "answer": "Know the environment that suits you and create your ideal instead of getting used to it unreasonably."
       },
       {
         "question": "What is NFT?",
-        "answer": "description description description description"
+        "answer": "We are currently creating an NFT. Please wait a little longer."
       },
       {
         "question": "What is Shop Info?",
