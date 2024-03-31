@@ -7,10 +7,12 @@ export function Footer({ locale }: { locale: Locale }): JSX.Element {
     <footer className="mx-auto max-w-screen-2xl mt-4 py-4 px-4 md:px-8">
       <div className="border-t border-gray-800 text-center text-sm text-gray-400">
         <div className="flex space-x-6 py-6 justify-center">
-          {/* <Link target="_blank" href="https://google.com/" rel="noopener" className="text-gray-600">
-            <Icons.site className="w-5 h-5" />
-          </Link> */}
-          <Link target="_blank" href="https://instagram.com/" rel="noopener" className="text-gray-600">
+          <Link
+            target="_blank"
+            href="https://www.instagram.com/loose_and_fluffy/"
+            rel="noopener"
+            className="text-gray-600"
+          >
             <Icons.instagram className="w-5 h-5" />
           </Link>
           <Link target="_blank" href="https://twitter.com/anpanmanringo?s=11" rel="noopener" className="text-gray-600">

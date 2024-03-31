@@ -4,7 +4,6 @@ import { Avatar, AvatarImage } from "@/components/ui/avatar";
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
 import { Footer } from "@/components/ui/footer";
 import { H1, H2, H3, Paragraph } from "@/components/ui/typography";
-import Image from "next/image";
 import LogoImage from "@/assets/logo.png";
 import { Locale } from "@/i18n-config";
 import { getLanguage } from "@/get-language";
@@ -23,17 +22,18 @@ export default async function IndexPage({ params: { lang } }: Props) {
     <>
       <section className="bg-gradient-to-br from-violet-400 via-pink-400 to-orange-400">
         <div className="absolute -bottom-1 left-0 bg-gradient-to-t from-background to-transparent h-[50svh] w-full" />
-        <div className="absolute top-2 right-4">
-          <Link href={`/${lang === "ja" ? "en" : "ja"}/`} className="text-primary-foreground">
-            {lang === "ja" ? "EN" : "JA"}
-          </Link>
-        </div>
+        <Link
+          href={`/${lang === "ja" ? "en" : "ja"}/`}
+          className="text-primary-foreground absolute top-5 right-5 overflow-hidden bg-gray-200/30 backdrop-blur-lg rounded-full aspect-square border border-gray-200/30 shadow-lg p-10"
+        >
+          {lang === "ja" ? "EN" : "JA"}
+        </Link>
         <div className="flex flex-col items-center text-center justify-center h-[100svh]">
           <div className="flex flex-col justify-center items-center max-w-screen-md animate-pulse p-10 sm:p-24 bg-gray-200/30 backdrop-blur-lg rounded-full aspect-square border border-gray-200/30 shadow-lg">
             <H1 className="text-5xl max-w-[90vw] font-semibold tracking-tight sm:text-6xl py-3 text-primary-foreground opacity-100">
               {dictionary.index.hero_title}
             </H1>
-            <Paragraph className="text-primary-foreground max-w-[max-w-[90vw]] leading-8">
+            <Paragraph className="text-primary-foreground max-w-[max-w-[90vw]] leading-6">
               {dictionary.index.hero_description}
             </Paragraph>
           </div>
@@ -135,7 +135,6 @@ export default async function IndexPage({ params: { lang } }: Props) {
           </div>
         </InViewFadeIn>
       </section>
-
       <section id="shop" className="container py-8 md:py-12 lg:py-24 min-h-[60vh] md:max-w-[64rem]">
         <InViewFadeIn className="space-y-10">
           <div>
@@ -182,6 +181,35 @@ export default async function IndexPage({ params: { lang } }: Props) {
             </AccordionItem>
           ))}
         </Accordion>
+      </section>
+      <section id="compnay" className="container py-8 md:py-12 lg:py-24 md:max-w-[64rem]">
+        <InViewFadeIn className="space-y-10">
+          <div>
+            <H3 className="py-10">{dictionary.index.company_info}</H3>
+            <div className="mx-auto grid justify-center gap-4 grid-cols-1">
+              <div>
+                <Paragraph className="font-bold">{dictionary.index.company_info_name_title}</Paragraph>
+                <Paragraph>{dictionary.index.company_info_name}</Paragraph>
+              </div>
+              <div>
+                <Paragraph className="font-bold">{dictionary.index.company_info_id_title}</Paragraph>
+                <Paragraph>{dictionary.index.company_info_id}</Paragraph>
+              </div>
+              <div>
+                <Paragraph className="font-bold">{dictionary.index.company_info_address_title}</Paragraph>
+                <Paragraph>{dictionary.index.company_info_address}</Paragraph>
+              </div>
+              <div>
+                <Paragraph className="font-bold">{dictionary.index.company_info_phone_title}</Paragraph>
+                <Paragraph>{dictionary.index.company_info_phone}</Paragraph>
+              </div>
+              <div>
+                <Paragraph className="font-bold">{dictionary.index.company_info_email_title}</Paragraph>
+                <Paragraph>{dictionary.index.company_info_email}</Paragraph>
+              </div>
+            </div>
+          </div>
+        </InViewFadeIn>
       </section>
       <section>
         <Footer locale={lang} />

@@ -3,52 +3,57 @@
   "index": {
     "hero_title": "Loose and Fluffy",
     "hero_description": "自分に合った環境を知り理不尽に慣れるのではなく理想を創る",
-    "introduce_company_title": "What's in Loose and fluffy?",
+    "introduce_company_title": "Loose and fluffy とは",
     "introduce_company_description": "ゆるふわっと素敵な世界を目指して",
-    "introduce_product_title": "Onigiri types",
-    "introduce_product_description": "description description description description",
-    "product_onigiris_1_name": "Onigiri-A",
+    "introduce_product_title": "製品紹介",
+    "introduce_product_description": "ふわっとやさしいおにぎりを提供します。",
+    "product_onigiris_1_name": "ふわっと鮭",
     "product_onigiris_1_description": "description description description description",
-    "product_onigiris_2_name": "Onigiri-B",
+    "product_onigiris_2_name": "ふわっと梅干し",
     "product_onigiris_2_description": "description description description description",
-    "product_onigiris_3_name": "Onigiri-C",
+    "product_onigiris_3_name": "ふわっと牛すじ",
     "product_onigiris_3_description": "description description description description",
-    "product_onigiri_nft_title": "Onigiri - NFT",
-    "product_onigiri_nft_description": "description description description description",
-    "introduce_shop_title": "Shop Info",
-    "introduce_shop_open_days_title": "Open - Days",
-    "introduce_shop_open_days_content": "Monday - Friday",
-    "introduce_shop_open_hours_title": "Open - Hours",
+    "product_onigiri_nft_title": "おにぎり - NFT",
+    "product_onigiri_nft_description": "おにぎりの具を提案してください！採用されると限定NFTが貰えます。今後NFTの保有者には限定特典もお届けします。",
+    "introduce_shop_title": "店舗情報",
+    "introduce_shop_open_days_title": "営業日",
+    "introduce_shop_open_days_content": "月曜日 〜 金曜日",
+    "introduce_shop_open_hours_title": "営業時間",
     "introduce_shop_open_hours_content": "10:00 AM - 10:00 PM",
-    "introduce_shop_location_title": "Location",
-    "introduce_shop_location_content": "Tokyo Arakawa Nishinippori n-n-n",
-    "introduce_shop_phone_title": "Phone",
+    "introduce_shop_location_title": "住所",
+    "introduce_shop_location_content": "東京都荒川区1-1-1",
+    "introduce_shop_phone_title": "電話番号",
     "introduce_shop_phone_content": "080-9124-7606",
-    "questions_title": "Questions",
-    "questions_description": "If you have any questions, please contact us at looseandfluffy＠yahoo.co.jp",
+    "questions_title": "よくあるお問い合わせ",
+    "questions_description": "直接の連絡をご希望の場合は looseandfluffy＠yahoo.co.jp 迄、お問合せ下さい",
     "questions_items": [
       {
-        "question": "What is Loose and Fluffy?",
-        "answer": "Know the environment that suits you and create your ideal instead of getting used to it unreasonably."
+        "question": "Loose and Fluffy? って何ですか？",
+        "answer": "おにぎりを提供します"
       },
       {
-        "question": "What is NFT?",
-        "answer": "We are currently creating an NFT. Please wait a little longer."
+        "question": "売り切れの場合、通常より早く営業を終了しますか？",
+        "answer": "申し訳ありません。売り切れの場合はその時点で当日の営業は終了とさせて頂きます"
       },
       {
-        "question": "What is Shop Info?",
-        "answer": "description description description description"
+        "question": "NFT って何ですか？",
+        "answer": "NFTは、ブロックチェーン技術で唯一無二の価値を持つデジタルデータ。アートやゲームアイテムなど、様々なものがNFT化されています。所有権や希少性を証明し、新たな市場を生み出しています。"
       },
       {
-        "question": "What is Onigiri types?",
-        "answer": "description description description description"
-      },
-      {
-        "question": "会社概要",
-        "answer": "株式会社Ｌｏｏｓｅ　ａｎｄ　ｆｌｕｆｆｙ
-〒116-0013 東京都 荒川区 西日暮里６丁目５１－９プレシス西日暮里２０５
-法人番号：1011501030467"
+        "question": "求人はしていますか？",
+        "answer": "募集しています。是非 looseandfluffy＠yahoo.co.jp 迄、お問合せ下さい"
       }
-    ]
+    ],
+    "company_info": "会社概要",
+    "company_info_name_title": "会社名",
+    "company_info_name": "株式会社 Loose and Fluffy",
+    "company_info_address_title": "住所",
+    "company_info_address": "〒116-0013 東京都 荒川区 西日暮里6丁目51-9 プレシス西日暮里205",
+    "company_info_phone_title": "電話番号",
+    "company_info_phone": "080-9124-7606",
+    "company_info_email_title": "E-mail",
+    "company_info_email": "looseandfluffy＠yahoo.co.jp",
+    "company_info_id_title": "法人登記番号",
+    "company_info_id": "1011501030467"
   }
 }
