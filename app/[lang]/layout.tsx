@@ -18,7 +18,7 @@ type Props = {
 export const metadata: Metadata = {
   title: "loose and fluffy",
   description: "loose and fluffy corporate site",
-  metadataBase: new URL("https://loose-and-fluffy.com/"),
+  metadataBase: new URL("https://looseandfluffy.com/"),
   twitter: {
     card: "summary_large_image",
     title: "loose and fluffy",
