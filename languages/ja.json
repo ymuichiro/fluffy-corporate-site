@@ -7,12 +7,68 @@
     "introduce_company_description": "ゆるふわっと素敵な世界を目指して\n提携先農家様を募集しております",
     "introduce_product_title": "製品紹介",
     "introduce_product_description": "ふわっとやさしいおにぎりを提供します。",
-    "product_onigiris_1_name": "ふわっと鮭",
-    "product_onigiris_1_description": "豊洲で仕入れた国産のシャケを丁寧に焼きました",
-    "product_onigiris_2_name": "ふわっと梅干し",
-    "product_onigiris_2_description": "国産の梅でさっぱりと",
-    "product_onigiris_3_name": "ふわっと牛すじ",
-    "product_onigiris_3_description": "牛すじとネギで食べ応え満点",
+    "product_onigiris": [
+      {
+        "name": "ふわっと鮭",
+        "description": "豊洲で仕入れた国産のシャケを丁寧に焼きました",
+        "url": "/assets/logo.png?画像ファイルを貰えればアップロード後のURLを払い出し可能"
+      },
+      {
+        "name": "ふわっと梅干し",
+        "description": "国産の梅でさっぱりと",
+        "url": "/assets/logo.png?画像ファイルを貰えればアップロード後のURLを払い出し可能"
+      },
+      {
+        "name": "ふわっと牛すじ",
+        "description": "牛すじとネギで食べ応え満点",
+        "url": "/assets/logo.png?画像ファイルを貰えればアップロード後のURLを払い出し可能"
+      },
+      {
+        "name": "ふわっと牛すじ",
+        "description": "牛すじとネギで食べ応え満点",
+        "url": "/assets/logo.png?画像ファイルを貰えればアップロード後のURLを払い出し可能"
+      },
+      {
+        "name": "ふわっと牛すじ",
+        "description": "牛すじとネギで食べ応え満点",
+        "url": "/assets/logo.png?画像ファイルを貰えればアップロード後のURLを払い出し可能"
+      },
+      {
+        "name": "ふわっと牛すじ",
+        "description": "牛すじとネギで食べ応え満点",
+        "url": "/assets/logo.png?画像ファイルを貰えればアップロード後のURLを払い出し可能"
+      },
+      {
+        "name": "ふわっと牛すじ",
+        "description": "牛すじとネギで食べ応え満点",
+        "url": "/assets/logo.png?画像ファイルを貰えればアップロード後のURLを払い出し可能"
+      },
+      {
+        "name": "ふわっと牛すじ",
+        "description": "牛すじとネギで食べ応え満点",
+        "url": "/assets/logo.png?画像ファイルを貰えればアップロード後のURLを払い出し可能"
+      },
+      {
+        "name": "ふわっと牛すじ",
+        "description": "牛すじとネギで食べ応え満点",
+        "url": "/assets/logo.png?画像ファイルを貰えればアップロード後のURLを払い出し可能"
+      },
+      {
+        "name": "ふわっと牛すじ",
+        "description": "牛すじとネギで食べ応え満点",
+        "url": "/assets/logo.png?画像ファイルを貰えればアップロード後のURLを払い出し可能"
+      },
+      {
+        "name": "ふわっと牛すじ",
+        "description": "牛すじとネギで食べ応え満点",
+        "url": "/assets/logo.png?画像ファイルを貰えればアップロード後のURLを払い出し可能"
+      },
+      {
+        "name": "ふわっと牛すじ",
+        "description": "牛すじとネギで食べ応え満点",
+        "url": "/assets/logo.png?画像ファイルを貰えればアップロード後のURLを払い出し可能"
+      }
+    ],
     "product_onigiri_nft_title": "Rice Ball",
     "product_onigiri_nft_description": "rice ball.",
     "introduce_shop_title": "店舗情報",

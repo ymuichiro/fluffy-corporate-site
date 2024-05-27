@@ -25,23 +25,22 @@
         "introduce_product_description": {
           "type": "string"
         },
-        "product_onigiris_1_name": {
-          "type": "string"
-        },
-        "product_onigiris_1_description": {
-          "type": "string"
-        },
-        "product_onigiris_2_name": {
-          "type": "string"
-        },
-        "product_onigiris_2_description": {
-          "type": "string"
-        },
-        "product_onigiris_3_name": {
-          "type": "string"
-        },
-        "product_onigiris_3_description": {
-          "type": "string"
+        "product_onigiris": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "name": {
+                "type": "string"
+              },
+              "description": {
+                "type": "string"
+              },
+              "url": {
+                "type": "string"
+              }
+            }
+          }
         },
         "product_onigiri_nft_title": {
           "type": "string"

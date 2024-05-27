@@ -69,27 +69,11 @@ export default async function IndexPage({ params: { lang } }: Props) {
             </Paragraph>
           </div>
           <div className="mx-auto grid justify-center gap-4 grid-cols-1 sm:grid-cols-2 md:max-w-[64rem] md:grid-cols-3">
-            {[
-              {
-                name: dictionary.index.product_onigiris_1_name,
-                description: dictionary.index.product_onigiris_1_description,
-                image: LogoImage.src,
-              },
-              {
-                name: dictionary.index.product_onigiris_2_name,
-                description: dictionary.index.product_onigiris_2_description,
-                image: LogoImage.src,
-              },
-              {
-                name: dictionary.index.product_onigiris_3_name,
-                description: dictionary.index.product_onigiris_3_description,
-                image: LogoImage.src,
-              },
-            ].map((item, index) => (
+            {dictionary.index.product_onigiris.map((item, index) => (
               <Card className="flex flex-col justify-between p-2" key={index}>
                 <CardHeader>
                   <Avatar>
-                    <AvatarImage src={item.image} />
+                    <AvatarImage src={item.url} />
                   </Avatar>
                 </CardHeader>
                 <CardContent className="flex flex-col gap-3">
@@ -102,7 +86,7 @@ export default async function IndexPage({ params: { lang } }: Props) {
         </InViewFadeIn>
       </section>
 
-      <section
+      {/* <section
         id="onigiris"
         className="container py-8 md:py-12 lg:py-24 min-h-[80svh] flex flex-col justify-center items-center"
       >
@@ -134,7 +118,7 @@ export default async function IndexPage({ params: { lang } }: Props) {
             </div>
           </div>
         </InViewFadeIn>
-      </section>
+      </section> */}
       <section id="shop" className="container py-8 md:py-12 lg:py-24 min-h-[60vh] md:max-w-[64rem]">
         <InViewFadeIn className="space-y-10">
           <div>

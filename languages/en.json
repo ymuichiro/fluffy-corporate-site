@@ -7,12 +7,68 @@
     "introduce_company_description": "Aiming for a fluffy and wonderful world.",
     "introduce_product_title": "Product Introduction",
     "introduce_product_description": "We offer fluffy and gentle rice balls.",
-    "product_onigiris_1_name": "Fluffy Salmon",
-    "product_onigiris_1_description": "description description description description",
-    "product_onigiris_2_name": "Fluffy Umeboshi",
-    "product_onigiris_2_description": "description description description description",
-    "product_onigiris_3_name": "Fluffy Beef Tendon",
-    "product_onigiris_3_description": "description description description description",
+    "product_onigiris": [
+      {
+        "name": "Fluffy Salmon",
+        "description": "description description description description",
+        "url": "/assets/logo.png?画像ファイルを貰えればアップロード後のURLを払い出し可能"
+      },
+      {
+        "name": "Fluffy Umeboshi",
+        "description": "description description description description",
+        "url": "/assets/logo.png?画像ファイルを貰えればアップロード後のURLを払い出し可能"
+      },
+      {
+        "name": "Fluffy Umeboshi",
+        "description": "description description description description",
+        "url": "/assets/logo.png?画像ファイルを貰えればアップロード後のURLを払い出し可能"
+      },
+      {
+        "name": "Fluffy Umeboshi",
+        "description": "description description description description",
+        "url": "/assets/logo.png?画像ファイルを貰えればアップロード後のURLを払い出し可能"
+      },
+      {
+        "name": "Fluffy Umeboshi",
+        "description": "description description description description",
+        "url": "/assets/logo.png?画像ファイルを貰えればアップロード後のURLを払い出し可能"
+      },
+      {
+        "name": "Fluffy Umeboshi",
+        "description": "description description description description",
+        "url": "/assets/logo.png?画像ファイルを貰えればアップロード後のURLを払い出し可能"
+      },
+      {
+        "name": "Fluffy Umeboshi",
+        "description": "description description description description",
+        "url": "/assets/logo.png?画像ファイルを貰えればアップロード後のURLを払い出し可能"
+      },
+      {
+        "name": "Fluffy Umeboshi",
+        "description": "description description description description",
+        "url": "/assets/logo.png?画像ファイルを貰えればアップロード後のURLを払い出し可能"
+      },
+      {
+        "name": "Fluffy Umeboshi",
+        "description": "description description description description",
+        "url": "/assets/logo.png?画像ファイルを貰えればアップロード後のURLを払い出し可能"
+      },
+      {
+        "name": "Fluffy Umeboshi",
+        "description": "description description description description",
+        "url": "/assets/logo.png?画像ファイルを貰えればアップロード後のURLを払い出し可能"
+      },
+      {
+        "name": "Fluffy Umeboshi",
+        "description": "description description description description",
+        "url": "/assets/logo.png?画像ファイルを貰えればアップロード後のURLを払い出し可能"
+      },
+      {
+        "name": "Fluffy Beef Tendon",
+        "description": "description description description description",
+        "url": "/assets/logo.png?画像ファイルを貰えればアップロード後のURLを払い出し可能"
+      }
+    ],
     "product_onigiri_nft_title": "Rice Ball - NFT",
     "product_onigiri_nft_description": "Suggest rice ball fillings! If your suggestion is selected, you will receive a limited NFT. In the future, we will also offer exclusive benefits to NFT holders.",
     "introduce_shop_title": "Store Information",
