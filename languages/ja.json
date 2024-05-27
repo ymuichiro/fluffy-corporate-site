@@ -13,32 +13,29 @@
     "product_onigiris_2_description": "description description description description",
     "product_onigiris_3_name": "ふわっと牛すじ",
     "product_onigiris_3_description": "description description description description",
-    "product_onigiri_nft_title": "おにぎり - NFT",
-    "product_onigiri_nft_description": "おにぎりの具を提案してください！採用されると限定NFTが貰えます。今後NFTの保有者には限定特典もお届けします。",
     "introduce_shop_title": "店舗情報",
     "introduce_shop_open_days_title": "営業日",
-    "introduce_shop_open_days_content": "月曜日 〜 金曜日",
+    "introduce_shop_open_days_content": "月曜日 〜 日曜日",
     "introduce_shop_open_hours_title": "営業時間",
-    "introduce_shop_open_hours_content": "10:00 AM - 10:00 PM",
+    "introduce_shop_open_hours_content": "10:00 AM - 18：00 PM ,
     "introduce_shop_location_title": "住所",
-    "introduce_shop_location_content": "東京都荒川区1-1-1",
+    "introduce_shop_location_content": "110-0001東京都台東区3−6−９",
     "introduce_shop_phone_title": "電話番号",
     "introduce_shop_phone_content": "080-9124-7606",
     "questions_title": "よくあるお問い合わせ",
     "questions_description": "直接の連絡をご希望の場合は looseandfluffy＠yahoo.co.jp 迄、お問合せ下さい",
     "questions_items": [
       {
-        "question": "Loose and Fluffy? って何ですか？",
-        "answer": "おにぎりを提供します"
+        "question": "ケータリング使用可能ですか",
+        "answer": "予約制です。お問い合わせください！"
       },
       {
         "question": "売り切れの場合、通常より早く営業を終了しますか？",
         "answer": "申し訳ありません。売り切れの場合はその時点で当日の営業は終了とさせて頂きます"
       },
-      {
-        "question": "NFT って何ですか？",
-        "answer": "NFTは、ブロックチェーン技術で唯一無二の価値を持つデジタルデータ。アートやゲームアイテムなど、様々なものがNFT化されています。所有権や希少性を証明し、新たな市場を生み出しています。"
-      },
+    
+         "提携先の農家さんを募集しています。",
+
       {
         "question": "求人はしていますか？",
         "answer": "募集しています。是非 looseandfluffy＠yahoo.co.jp 迄、お問合せ下さい"
