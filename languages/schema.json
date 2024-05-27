@@ -1,1 +1,103 @@
-{"type":"object","properties":{"$schema":{"type":"string"},"index":{"type":"object","properties":{"hero_title":{"type":"string"},"hero_description":{"type":"string"},"introduce_company_title":{"type":"string"},"introduce_company_description":{"type":"string"},"introduce_product_title":{"type":"string"},"introduce_product_description":{"type":"string"},"product_onigiris_1_name":{"type":"string"},"product_onigiris_1_description":{"type":"string"},"product_onigiris_2_name":{"type":"string"},"product_onigiris_2_description":{"type":"string"},"product_onigiris_3_name":{"type":"string"},"product_onigiris_3_description":{"type":"string"},"product_onigiri_nft_title":{"type":"string"},"product_onigiri_nft_description":{"type":"string"},"introduce_shop_title":{"type":"string"},"introduce_shop_open_days_title":{"type":"string"},"introduce_shop_open_days_content":{"type":"string"},"introduce_shop_open_hours_title":{"type":"string"},"introduce_shop_open_hours_content":{"type":"string","format":"style"},"introduce_shop_location_title":{"type":"string"},"introduce_shop_location_content":{"type":"string"},"introduce_shop_phone_title":{"type":"string"},"introduce_shop_phone_content":{"type":"string"},"questions_title":{"type":"string"},"questions_description":{"type":"string"},"questions_items":{"type":"array","items":{"type":"object","properties":{"question":{"type":"string"},"answer":{"type":"string"}}}}}}}}
+{
+  "type": "object",
+  "properties": {
+    "$schema": {
+      "type": "string"
+    },
+    "index": {
+      "type": "object",
+      "properties": {
+        "hero_title": {
+          "type": "string"
+        },
+        "hero_description": {
+          "type": "string"
+        },
+        "introduce_company_title": {
+          "type": "string"
+        },
+        "introduce_company_description": {
+          "type": "string"
+        },
+        "introduce_product_title": {
+          "type": "string"
+        },
+        "introduce_product_description": {
+          "type": "string"
+        },
+        "product_onigiris_1_name": {
+          "type": "string"
+        },
+        "product_onigiris_1_description": {
+          "type": "string"
+        },
+        "product_onigiris_2_name": {
+          "type": "string"
+        },
+        "product_onigiris_2_description": {
+          "type": "string"
+        },
+        "product_onigiris_3_name": {
+          "type": "string"
+        },
+        "product_onigiris_3_description": {
+          "type": "string"
+        },
+        "product_onigiri_nft_title": {
+          "type": "string"
+        },
+        "product_onigiri_nft_description": {
+          "type": "string"
+        },
+        "introduce_shop_title": {
+          "type": "string"
+        },
+        "introduce_shop_open_days_title": {
+          "type": "string"
+        },
+        "introduce_shop_open_days_content": {
+          "type": "string"
+        },
+        "introduce_shop_open_hours_title": {
+          "type": "string"
+        },
+        "introduce_shop_open_hours_content": {
+          "type": "string",
+          "format": "style"
+        },
+        "introduce_shop_location_title": {
+          "type": "string"
+        },
+        "introduce_shop_location_content": {
+          "type": "string"
+        },
+        "introduce_shop_phone_title": {
+          "type": "string"
+        },
+        "introduce_shop_phone_content": {
+          "type": "string"
+        },
+        "questions_title": {
+          "type": "string"
+        },
+        "questions_description": {
+          "type": "string"
+        },
+        "questions_items": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "question": {
+                "type": "string"
+              },
+              "answer": {
+                "type": "string"
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
