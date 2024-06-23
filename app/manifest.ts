@@ -3,14 +3,14 @@ import { MetadataRoute } from "next";
 // http://localhost:3000/manifest.webmanifest
 export default function manifest(): MetadataRoute.Manifest {
   return {
-    name: "loose and fluffy",
-    short_name: "loose and fluffy",
-    theme_color: "#b32af9",
+    name: "谷中Omusubi",
+    short_name: "谷中Omusubi",
+    theme_color: "#f590e4",
     background_color: "#000000",
     display: "fullscreen",
     scope: "/",
     start_url: "/",
-    description: "loose and fluffy",
+    description: "東京都台東区谷中よみせ通りにあるおむすび屋です。",
     icons: [
       {
         src: "/maskable_icon_x96.png",
