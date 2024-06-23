@@ -13,7 +13,14 @@ const withPWA = require("next-pwa")({
 /** @type {import('next').NextConfig} */
 const nextConfig = withPWA({
   images: {
-    domains: ["https://www.google.com/maps/"],
+    remotePatterns: [
+      {
+        protocol: "https",
+        hostname: "www.google.com",
+        port: "443",
+        pathname: "maps/",
+      },
+    ],
   },
   trailingSlash: true,
   reactStrictMode: true,

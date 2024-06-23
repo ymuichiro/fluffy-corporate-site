@@ -3,7 +3,7 @@
 import Autoplay from "embla-carousel-autoplay";
 import { Carousel, CarouselContent, CarouselItem, CarouselNext, CarouselPrevious } from "@/components/ui/carousel";
 import Image from "next/image";
-import TransparentLogo from "@/assets/transparent-logo.png";
+import TransparentLogo from "@/assets/transparent-logo.webp";
 
 export default function Previews() {
   return (

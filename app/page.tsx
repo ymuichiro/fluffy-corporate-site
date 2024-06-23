@@ -3,12 +3,11 @@ import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from "@/
 import { Card, CardContent, CardDescription, CardFooter, CardHeader, CardTitle } from "@/components/ui/card";
 import { Footer } from "@/components/ui/footer";
 import { H1, H2, H3, Paragraph } from "@/components/ui/typography";
-import TransparentLogo from "@/assets/transparent-logo.png";
-import ShopRoom from "@/assets/shop-room.jpeg";
-import ShopOverview from "@/assets/shop-overview.jpg";
-import ShopShowCase from "@/assets/shop-show-case.jpg";
+import TransparentLogo from "@/assets/transparent-logo.webp";
+import ShopRoom from "@/assets/shop-room.webp";
+import ShopOverview from "@/assets/shop-overview.webp";
+import ShopShowCase from "@/assets/shop-show-case.webp";
 import Image from "next/image";
-import Previews from "@/components/atom/moleculs/previews";
 import InstagramList from "@/components/atom/moleculs/instagram";
 
 const producs: { name: string; en: string; price: number }[] = [
