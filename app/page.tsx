@@ -9,6 +9,7 @@ import ShopOverview from "@/assets/shop-overview.webp";
 import ShopShowCase from "@/assets/shop-show-case.webp";
 import Image from "next/image";
 import InstagramList from "@/components/atom/moleculs/instagram";
+import Link from "next/link";
 
 const producs: { name: string; en: string; price: number }[] = [
   {
@@ -128,14 +129,15 @@ export default async function IndexPage() {
               height={300}
               className="h-auto w-auto"
             />
-            <H1 className="hidden">谷中Omusubi</H1>
           </div>
         </div>
       </section>
       <section className="container py-8 md:py-12 lg:py-24 min-h-[80svh] flex flex-col justify-center items-center">
-        <InViewFadeIn className="space-y-6 w-full">
+        <InViewFadeIn className="space-y-6 w-full" threshold={0.1}>
           <div className="mx-auto flex max-w-[58rem] flex-col items-center space-y-4 text-center">
-            <H2>Omusubi Menu</H2>
+            <H2 id="menu">
+              <Link href={"/#menu"}>Omusubi Menu</Link>
+            </H2>
           </div>
           <div className="mx-auto grid justify-center gap-4 grid-cols-1 sm:grid-cols-2 md:max-w-[64rem] md:grid-cols-3">
             {producs.map((item, index) => (
@@ -166,7 +168,9 @@ export default async function IndexPage() {
       <section className="container py-8 md:py-12 lg:py-24 min-h-[60vh] md:max-w-[64rem]">
         <InViewFadeIn className="space-y-10">
           <div>
-            <H3 className="py-10">店舗情報</H3>
+            <H3 id="shop-info" className="py-10">
+              <Link href={"/#shop-info"}>店舗情報</Link>
+            </H3>
             <div className="mx-auto grid justify-center gap-8 grid-cols-1 sm:grid-cols-2">
               <div>
                 <Paragraph className="font-bold">営業日</Paragraph>
@@ -201,9 +205,11 @@ export default async function IndexPage() {
         </InViewFadeIn>
       </section>
       <section className="container py-8 md:py-12 lg:py-24 flex flex-col justify-center items-center max-w-4xl">
-        <InViewFadeIn className="space-y-6 w-full">
+        <InViewFadeIn className="space-y-6 w-full" threshold={0.2}>
           <div className="mx-auto flex flex-col items-center space-y-4 text-center">
-            <H2>店舗外観</H2>
+            <H2 id="shopimage">
+              <Link href={"/#shopimage"}>店舗外観</Link>
+            </H2>
           </div>
           <div className="flex flex-col gap-8 justify-center items-center lg:flex-row lg:justify-around">
             <Image
@@ -235,7 +241,9 @@ export default async function IndexPage() {
       <section className="container py-8 md:py-12 lg:py-24 flex flex-col justify-center items-center max-w-4xl">
         <InViewFadeIn className="space-y-6 w-full">
           <div className="mx-auto flex flex-col items-center space-y-4 text-center">
-            <H2>Instagram</H2>
+            <H2 id="instagram">
+              <Link href={"/#instagram"}>Instagram</Link>
+            </H2>
           </div>
           <div>
             <InstagramList />
@@ -244,7 +252,9 @@ export default async function IndexPage() {
       </section>
       <hr />
       <section className="container space-y-6 py-20 md:max-w-[64rem] flex flex-col items-stretch">
-        <H3>よくあるお問い合わせ</H3>
+        <H3 id="faq">
+          <Link href={"/#faq"}>よくある質問</Link>
+        </H3>
         <Paragraph className="text-muted-foreground">
           直接の連絡をご希望の場合は looseandfluffy＠yahoo.co.jp 迄、お問合せ下さい
         </Paragraph>
@@ -260,7 +270,9 @@ export default async function IndexPage() {
       <section className="container py-8 md:py-12 lg:py-24 md:max-w-[64rem]">
         <InViewFadeIn className="space-y-10">
           <div>
-            <H3 className="py-10">会社概要</H3>
+            <H3 className="py-10" id="companyinfo">
+              <Link href={"/#companyinfo"}>会社情報</Link>
+            </H3>
             <div className="mx-auto grid justify-center gap-4 grid-cols-1">
               <div>
                 <Paragraph className="font-bold">会社名</Paragraph>

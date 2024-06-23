@@ -9,13 +9,14 @@ type Props = {
 };
 
 export const metadata: Metadata = {
-  title: "loose and fluffy",
-  description: "loose and fluffy corporate site",
+  title: "谷中Omusubi | おむすび",
+  description: "東京都文京区よみせ通りにあるおむすび屋さん「谷中Omusubi」の公式サイトです。",
   metadataBase: new URL("https://looseandfluffy.com/"),
+  keywords: ["おむすび", "谷中", "文京区", "東京都"],
   twitter: {
     card: "summary_large_image",
-    title: "loose and fluffy",
-    description: "loose and fluffy",
+    title: "谷中Omusubi | おむすび",
+    description: "東京都文京区よみせ通りにあるおむすび屋さん「谷中Omusubi」の公式サイトです。",
     creator: "@anpanmanringo",
     images: ["/twitter-image.png"],
   },
