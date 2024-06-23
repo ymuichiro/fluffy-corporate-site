@@ -120,7 +120,7 @@ export default async function IndexPage() {
       <section className="bg-gradient-to-br from-violet-400 via-pink-400 to-orange-400">
         <div className="absolute -bottom-4 left-0 bg-gradient-to-t from-background to-transparent h-[50svh] w-full" />
         <div className="flex flex-col items-center text-center justify-center h-[100svh]">
-          <div className="flex flex-col justify-center items-center max-w-screen-md animate-pulse p-10 sm:p-24 bg-gray-200/30 backdrop-blur-lg rounded-full aspect-square border border-gray-200/30 shadow-lg">
+          <div className="flex flex-col justify-center items-center max-w-screen-md animate-pulse p-2 sm:p-24 bg-gray-200/30 backdrop-blur-lg rounded-full aspect-square border border-gray-200/30 shadow-lg">
             <Image
               priority
               src={TransparentLogo.src}
@@ -256,7 +256,8 @@ export default async function IndexPage() {
           <Link href={"/#faq"}>よくある質問</Link>
         </H3>
         <Paragraph className="text-muted-foreground">
-          直接の連絡をご希望の場合は looseandfluffy＠yahoo.co.jp 迄、お問合せ下さい
+          直接の連絡をご希望の場合は <a href="mailto:looseandfluffy@yahoo.co.jp">looseandfluffy＠yahoo.co.jp</a>{" "}
+          迄、お問合せ下さい
         </Paragraph>
         <Accordion type="single" collapsible>
           {questions.map((item, index) => (
@@ -292,7 +293,9 @@ export default async function IndexPage() {
               </div>
               <div>
                 <Paragraph className="font-bold">E-mail</Paragraph>
-                <Paragraph>looseandfluffy＠yahoo.co.jp</Paragraph>
+                <Paragraph>
+                  <a href="mailto:looseandfluffy@yahoo.co.jp">looseandfluffy＠yahoo.co.jp</a>
+                </Paragraph>
               </div>
             </div>
           </div>
