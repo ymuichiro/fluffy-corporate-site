@@ -118,8 +118,8 @@ export default async function IndexPage() {
   return (
     <>
       <section className="bg-gradient-to-br from-violet-400 via-pink-400 to-orange-400">
-        <div className="absolute -bottom-4 left-0 bg-gradient-to-t from-background to-transparent h-[50svh] w-full" />
-        <div className="flex flex-col items-center text-center justify-center h-[100svh]">
+        <div className="absolute -bottom-4 left-0 bg-gradient-to-t from-background to-transparent h-[50vh] w-full" />
+        <div className="flex flex-col items-center text-center justify-center h-[100vh]">
           <div className="flex flex-col justify-center items-center max-w-screen-md animate-pulse p-2 sm:p-24 bg-gray-200/30 backdrop-blur-lg rounded-full aspect-square border border-gray-200/30 shadow-lg">
             <Image
               priority
